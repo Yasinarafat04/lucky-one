@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
+import './Products.css'
 
 const Products = () => {
     const products = [
@@ -14,11 +15,14 @@ const Products = () => {
         { id: 9, name: "Huawei honor 8x", price: 27000, img: "https://www.gizmochina.com/wp-content/uploads/2018/09/Huawei-Honor-8X-Max-SD636-446x500.jpg" },
     ]
     return (
-        <div>
+        <div className='allproduct'>
+
             {
                 products.map(product => <Product key={product.id} product={product}></Product>)
             }
+
         </div>
+
     );
 };
 
