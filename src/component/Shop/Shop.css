@@ -1,0 +1,22 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products-container{
+    /* padding-left: 150px; */
+    margin-top: 30px;
+    width: 70%;
+    height: 70px;
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    /* border-radius: 10px; */
+}
+.products-container h1{
+    text-align: center;
+}
+.card-container{
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    /* background-color: blue; */
+}
